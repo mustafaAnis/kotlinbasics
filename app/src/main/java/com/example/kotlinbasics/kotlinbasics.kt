@@ -79,11 +79,14 @@ fun main(){
 //    println(nullableName3?.lowercase()) // prints null
 //    println(nullableName3?.length) // prints null
 
-    val nullableName4: String? = "MU"
-    nullableName4?.let { println(it.lowercase()) }
-    nullableName4?.let { println(it.length) }
-
-
+//    val nullableName4: String? = null
+//    nullableName4?.let { println(it.lowercase()) }
+//    nullableName4?.let { println(it.length) }
+//
+//    val name2 = nullableName4 ?: "Guest"
+//    val nullableName5: String? = null
+//    nullableName5!!.lowercase()
+//
 
 
 
